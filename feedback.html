@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="feedback_css.css">
+        </head>
+        <body>
+
+            <div class="container1">
+                <div class="row1">
+                <div class="col-md-12 text-center">
+                    <h3 class="animate-character"> CERIDIAN</h3>
+                </div>
+                </div>
+            </div>
+
+            <div class="form_title"> <p>Feedback Form</p> </div>
+
+
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Enter Your Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Enter Your Email:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="lname" name="lastname" placeholder="Your Email..." size="30" required>
+   
+                        </div>
+                 </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="department">Department</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="department" name="department">
+                            <option value="Product and Technology">Product and Technology</option>
+                            <option value="Customer Service">Customer Service</option>
+                            <option value="Human Resource">Human Resource</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <p>Please Rate Your Experience With Ceridian So far:</p>
+                    </div>
+                <div class="col-75">
+                      <input  type="radio" id="1" name="rating" value="1">
+                      <label for="1">1</label>
+                      <input  type="radio" id="2" name="rating" value="2">
+                      <label for="2">2</label>
+                      <input  type="radio" id="3" name="rating" value="3">
+                      <label for="3">3</label>
+                      <input  type="radio" id="4" name="rating" value="4">
+                      <label for="4">4</label>
+                      <input  type="radio" id="5" name="rating" value="5">
+                      <label for="5">5</label>
+                </div>
+
+                </div>
+
+                   <div class="row">
+
+                      <div class="col-25">
+                        <p>Select Suggestions To Improve The Experience For Upcoming Batches</p>
+                      </div>
+
+                
+
+                       <div class="col-75">
+                            <select name="More labs/ assignments" id="More labs/ assignments">
+                            <option value="More learning sessions">More learning sessions</option>
+                            <option value="More Food (especially Pizza)">More Food (especially Pizza)</option>
+                            <option value="Less Complex Training Sessions">Less Complex Training Sessions</option> </select>
+                         </div>
+
+                </div>
+
+                 <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Comments</label>
+                    </div>
+                    <div class="col-75">
+                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+        </form>
+    </div>
+
+</body>
+</html>
